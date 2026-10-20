@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arena técnica para treinar lógica de programação." />
+  <title>LoopLab — Treino de lógica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/jpeg" href="img/logo.jpg">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">&lt;/&gt;</span> LOOP<span>LAB</span></a>
+    <nav><a href="#trilhas">Trilhas</a><a href="#simulado">Simulado</a></nav>
+    <div class="streak"><span class="pulse"></span><b id="solved-count">0</b> resolvidos</div>
+  </header>
+  <main id="inicio">
+    <section class="hero">
+      <div class="eyebrow">// PREPARE-SE PARA O PRÓXIMO DESAFIO</div>
+      <h1>Treine o <em>raciocínio</em><br>que faz código funcionar.</h1>
+      <p>Uma arena prática de algoritmos, criada para provas de estágio, concursos e entrevistas técnicas.</p>
+      <div class="hero-actions"><a href="#trilhas" class="button primary">Explorar trilhas <span>→</span></a><button class="button ghost" id="random-challenge">Desafio aleatório</button></div>
+      <div class="metrics"><div><strong>240</strong><span>exercícios</span></div><div><strong>8</strong><span>trilhas</span></div><div><strong id="accuracy">—</strong><span>precisão</span></div></div>
+      <div class="terminal-card"><div class="terminal-head"><i></i><i></i><i></i><span>terminal — plano_de_estudo.sh</span></div><pre><code><span class="muted">$</span> <span class="cyan">./começar</span>
+
+<span class="green">✓</span> base lógica carregada
+<span class="green">✓</span> 8 módulos disponíveis
+<span class="amber">→</span> escolha um desafio e entre no fluxo</code></pre></div>
+    </section>
+    <section class="section" id="trilhas">
+      <div class="section-heading"><div><div class="eyebrow">// MAPA DE COMPETÊNCIAS</div><h2>Trilhas de treinamento</h2></div><p>60 exercícios por trilha: teoria objetiva e prática em Python.</p></div>
+      <div class="track-grid" id="track-grid"></div>
+    </section>
+    <section class="exam-section" id="simulado">
+      <div><div class="eyebrow">// MODO PROCESSO SELETIVO</div><h2>Simule pressão.<br><em>Ganhe clareza.</em></h2><p>25 questões mistas, cronômetro de 35 minutos e diagnóstico final por habilidade.</p><button class="button primary" id="start-exam">Iniciar simulado <span>→</span></button></div>
+      <div class="exam-visual"><span>25</span><small>QUESTÕES</small><b>35:00</b><div class="scanline"></div></div>
+    </section>
+  </main>
+  <main id="workspace" hidden></main>
+  <footer><span>LOOPLAB / 2026</span><span>Pratique. Erre. Entenda. Repita.</span></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/closebrackets.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js" defer></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
