@@ -2,7 +2,7 @@
 
 Site de treino de lógica de programação em Python, feito para quem está se preparando para provas de estágio, concursos e entrevistas técnicas. Os exercícios rodam direto no navegador, sem instalar nada.
 
-[![Abrir o LoopLab](https://img.shields.io/badge/abrir-LoopLab-36e3ff?style=for-the-badge)]([https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/](https://isaac-soares.github.io/LoopLab/))
+[![Abrir o LoopLab](https://img.shields.io/badge/abrir-LoopLab-36e3ff?style=for-the-badge)](https://isaac-soares.github.io/LoopLab/)
 
 ## O que tem
 
@@ -27,8 +27,8 @@ A primeira execução baixa o Python (alguns segundos). Depois disso ele fica em
 O projeto é estático, sem build e sem dependências para instalar. Clone o repositório e sirva a pasta com qualquer servidor local:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
+git clone https://github.com/isaac-soares/LoopLab.git
+cd LoopLab
 python -m http.server 8000
 ```
 
@@ -62,7 +62,7 @@ Depois acesse `http://localhost:8000`.
 
 1. Envie os arquivos para um repositório, com o `index.html` na raiz.
 2. Em **Settings → Pages**, escolha a branch `main` e a pasta `/ (root)`.
-3. Aguarde alguns minutos. O site fica em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`.
+3. Aguarde alguns minutos. O site fica em `https://isaac-soares.github.io/LoopLab/`.
 
 ## Limitações conhecidas
 
