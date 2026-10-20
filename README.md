@@ -2,6 +2,8 @@
 
 Site de treino de lógica de programação em Python, feito para quem está se preparando para provas de estágio, concursos e entrevistas técnicas. Os exercícios rodam direto no navegador, sem instalar nada.
 
+[![Abrir o LoopLab](https://img.shields.io/badge/abrir-LoopLab-36e3ff?style=for-the-badge)](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/)
+
 ## O que tem
 
 - **8 trilhas de estudo:** Fundamentos, Decisão & lógica, Repetição, Vetores & matrizes, Funções, Strings, Busca & ordenação e Raciocínio de prova.
