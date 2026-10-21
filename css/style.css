@@ -987,3 +987,24 @@ footer {
     font-size: 16px;
   }
 }
+
+.question-head code {
+  display: block;
+  margin: 14px 0;
+  padding: 14px 16px;
+  background: #101b29;
+  border-left: 2px solid var(--cyan);
+  color: #dbeafe;
+  font: 13px/1.6 'DM Mono', monospace;
+  white-space: pre-wrap;
+}
+
+.challenge-copy code {
+  color: var(--cyan);
+  font: 13px 'DM Mono', monospace;
+  white-space: pre-wrap;
+}
+
+.challenge-copy li {
+  margin-bottom: 8px;
+}

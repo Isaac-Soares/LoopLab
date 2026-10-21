@@ -25,7 +25,7 @@
       <h1>Treine o <em>raciocínio</em><br>que faz código funcionar.</h1>
       <p>Uma arena prática de algoritmos, criada para provas de estágio, concursos e entrevistas técnicas.</p>
       <div class="hero-actions"><a href="#trilhas" class="button primary">Explorar trilhas <span>→</span></a><button class="button ghost" id="random-challenge">Desafio aleatório</button></div>
-      <div class="metrics"><div><strong>240</strong><span>exercícios</span></div><div><strong>8</strong><span>trilhas</span></div><div><strong id="accuracy">—</strong><span>precisão</span></div></div>
+      <div class="metrics"><div><strong id="total-count">—</strong><span>exercícios</span></div><div><strong>8</strong><span>trilhas</span></div><div><strong id="accuracy">—</strong><span>precisão</span></div></div>
       <div class="terminal-card"><div class="terminal-head"><i></i><i></i><i></i><span>terminal — plano_de_estudo.sh</span></div><pre><code><span class="muted">$</span> <span class="cyan">./começar</span>
 
 <span class="green">✓</span> base lógica carregada
@@ -33,7 +33,7 @@
 <span class="amber">→</span> escolha um desafio e entre no fluxo</code></pre></div>
     </section>
     <section class="section" id="trilhas">
-      <div class="section-heading"><div><div class="eyebrow">// MAPA DE COMPETÊNCIAS</div><h2>Trilhas de treinamento</h2></div><p>60 exercícios por trilha: teoria objetiva e prática em Python.</p></div>
+      <div class="section-heading"><div><div class="eyebrow">// MAPA DE COMPETÊNCIAS</div><h2>Trilhas de treinamento</h2></div><p>Questões objetivas e desafios de programar, do básico ao avançado.</p></div>
       <div class="track-grid" id="track-grid"></div>
     </section>
     <section class="exam-section" id="simulado">
@@ -47,6 +47,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/closebrackets.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js" defer></script>
+  <script src="js/exercicios.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
